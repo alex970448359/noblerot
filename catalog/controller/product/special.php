@@ -1,6 +1,8 @@
 <?php
 class ControllerProductSpecial extends Controller {
 	public function index() {
+		$this->checkCustomerLoggedIn();
+		
 		$this->load->language('product/special');
 
 		$this->load->model('catalog/product');

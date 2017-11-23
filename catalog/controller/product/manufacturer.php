@@ -1,6 +1,8 @@
 <?php
 class ControllerProductManufacturer extends Controller {
 	public function index() {
+		$this->checkCustomerLoggedIn();
+		
 		$this->load->language('product/manufacturer');
 
 		$this->load->model('catalog/manufacturer');

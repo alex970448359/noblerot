@@ -273,7 +273,7 @@ if (isset($request->get['route'])) {
 }
 
 
-//$action = new Action('test/abc');
+// $action = new Action('account/account'); cannot be changed freely
 
 
 // Dispatch
