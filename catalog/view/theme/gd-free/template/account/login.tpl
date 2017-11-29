@@ -41,6 +41,7 @@
             </form>
           </div>
         </div>
+<!--
         <div class="col-sm-6">
           <div class="well">
             <h2><?php echo $text_new_customer; ?></h2>
@@ -48,8 +49,10 @@
             <p><?php echo $text_register_account; ?></p>
             <a href="<?php echo $register; ?>" class="btn btn-primary"><?php echo $button_continue; ?></a></div>
         </div>
+-->
       </div>
-      <?php echo $content_bottom; ?></div>
-    <?php echo $column_right; ?></div>
+<!--    <?php echo $content_bottom; ?>--></div>
+<!--    <?php echo $column_right; ?>--></div>
+
 </div>
 <?php echo $footer; ?>
