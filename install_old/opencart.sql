@@ -331,7 +331,7 @@ CREATE TABLE IF NOT EXISTS `oc_banner` (
 
 INSERT INTO `oc_banner` (`banner_id`, `name`, `status`) VALUES
 (6, 'HP Products', 0),
-(7, 'Home Page Slideshow', 1),
+(7, '首页上部横幅', 1),
 (8, 'Manufacturers', 1),
 (11, 'hengfu-xia', 1),
 (10, '首页中部横幅2', 1);
