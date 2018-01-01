@@ -158,7 +158,7 @@ class ControllerProductSearch extends Controller {
 
 		$this->load->model('catalog/category');
 
-		// 3 Level Category Search
+		// 3 Level Category Search [Code logic: Search is here]
 		$data['categories'] = array();
 
 		$categories_1 = $this->model_catalog_category->getCategories(0);
